@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ohang | Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --text: #ffffff;
+      --card: #111;
+      --border: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      transition: 0.3s;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 360px;
+      text-align: center;
+      padding: 20px;
+      animation: fade 0.8s ease;
+    }
+
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 3px solid var(--border);
+      margin-bottom: 10px;
+    }
+
+    .profile h2 {
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .profile p {
+      font-size: 14px;
+      opacity: 0.7;
+      margin-bottom: 25px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: var(--text);
+      background: var(--card);
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 10px;
+      font-weight: bold;
+      border: 2px solid var(--border);
+      transition: 0.25s;
+      gap: 10px;
+      font-size: 15px;
+    }
+
+    .link i {
+      font-size: 16px;
+    }
+
+    .link:hover {
+      background: #1a1a1a;
+      transform: scale(1.04);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="profile">
+      <img src="https://files.catbox.moe/2ei1kr.jpg" alt="Profile">
+      <h2>Ohang</h2>
+      <p>𝖨’𝗆 𝖺 𝖦𝗋𝖾𝗒 𝖧𝖺𝗍 𝖲𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝖤𝗇𝗍𝗁𝗎𝗌𝗂𝖺𝗌𝗍</p>
+    </div>
+
+    <a class="link" href="https://github.com/Yetazyyy" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+    <a class="link" href="https://www.tiktok.com/@ohangtersakiti" target="_blank"><i class="fab fa-tiktok"></i>TikTok</a>
+    <a class="link" href="https://t.me/ohangcommunity" target="_blank"><i class="fab fa-telegram"></i>Ohang Community</a>
+    <a class="link" href="https://t.me/AforAhong" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Join Class Hacking</a>
+    <a class="link" href="https://github.com/Yetazyyy/CVE-2025-4606" target="_blank"><i class="fas fa-toolbox"></i>Tools CVE-2025-4606</a>
+
+    <footer>© 2026 Ohang • Educational Purpose Only</footer>
+  </div>
+
+</body>
+  </html>
